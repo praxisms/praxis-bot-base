@@ -17,7 +17,7 @@ jobs:
         name: Prepare
         id: prepare
         run: |
-          DOCKER_IMAGE=mikeholler/praxis-bot-base
+          DOCKER_IMAGE=praxisms/praxis-bot-base
           DOCKER_PLATFORMS=linux/amd64,linux/arm64
           VERSION=edge
 
