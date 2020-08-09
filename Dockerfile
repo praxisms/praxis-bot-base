@@ -5,7 +5,7 @@ ARG sqlite_version="3.32.2"
 
 RUN apt-get update && apt-get install -y \
     build-essential \
-    cython
+    cython \
     gcc \
     gfortran \
     git \
