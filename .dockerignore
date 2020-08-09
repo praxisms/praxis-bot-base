@@ -1,0 +1,13 @@
+# Ignore Git and Docker stuff
+.git
+.cache
+
+# Ignore IDE garbage
+.idea
+**/*.iml
+
+# Ignore temporary files, etc.
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db
